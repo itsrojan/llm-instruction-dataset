@@ -1,4 +1,6 @@
-# Project Overview
+# 
+
+## Project Overview
 
 This project is about improving how language models understand and follow instructions. A basic dataset is changed by adding clear instructions to it, and this updated dataset is used to fine-tune a language model. The goal is to see if the model works better when fine-tuned with these new instructions.
 
@@ -9,7 +11,13 @@ The primary objective is to convert a non-instruction-based dataset into one tha
 
 ## Setup
 
-Ensure Python 3.11 is installed before starting. Then, install the required libraries using the following command:
+To prepare your environment for running the project, follow these steps carefully:
+
+Ensure Python 3.11 is installed on your system.
+
+It's recommended to use a virtual environment to manage dependencies.
+
+With the virtual environment activated, install all necessary Python packages using pip:
 
 ```bash
 pip install datasets transformers peft trl tqdm
